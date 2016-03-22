@@ -471,8 +471,8 @@ li.cart p {
 
 .price-box {
     left: 12px;
-    position: absolute;
     bottom: 0;
+    position: absolute;
     background: #57c5a0;
     color: #fff;
     font-family: Aller-Bold;
@@ -480,6 +480,34 @@ li.cart p {
     width: 68px;
     text-align: center;
     padding: 26px 0;
+}
+
+.sale-box {
+    left: 219px;
+    top: -221px;
+    position: absolute;
+    background: #242424;
+    color: #fff;
+    font-family: Aller-Bold;
+    font-size: 0.8rem;
+    width: 68px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 26px 0;
+}
+
+.stock-box {
+    left: 219px;
+    top: -221px;
+    position: absolute;
+    background: #f27e4b;
+    color: #fff;
+    font-family: Aller-Bold;
+    font-size: 0.8rem;
+    width: 68px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 16px 0;
 }
 
 /*End Product box*/
@@ -711,7 +739,6 @@ input.submit {
 
 .filter {
     background: #2e2e2e;
-    color: #fff;
 }
 
 .filter-items {
@@ -722,22 +749,67 @@ input.submit {
 .filter-items li {
     display: block;
     position: relative;
+    padding: 20px 0;
 }
 
-.filter-items li ul {
+.filter-items img {
+    margin-left: 20px;
+}
+
+.sub-menu {
     display: none;
     background: url(../img/dropdown-background.png) no-repeat;
     background-size: 100% 100%;
+    top: 69px;
+}
+
+.filter-items h3 {
+    color: #fff;
+    font-size: 1.3rem;
 }
 
 .filter-items li a {
     display: block;
     color: #fff;
+    font-size: 1.2rem;
 }
 
-.filter-items li:hover ul {
+.filter-items li:hover ul, .dropdown:hover ul {
     display: block;
     position: absolute;
+}
+
+.filter-item ul li {
+    width: 220px;
+}
+
+.filter-title {
+    width: 220px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.filter-item {
+    background: #242424;
+    width: 220px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.sub-menu li {
+    padding: 5px 0;
+}
+
+.sub-menu li:first-child {
+    margin-top: 5px;
+}
+
+.sub-menu li:last-child {
+    margin-bottom: 5px;
+}
+
+.sub-menu li:hover {
+    background: #57c5a0;
 }
 
 /*End filter*/
