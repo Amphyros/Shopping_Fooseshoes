@@ -122,6 +122,7 @@ textarea {
 
 body {
     font-family: Aller, sans-serif;
+    font-size: 16px;
 }
 
 h1 {
@@ -193,7 +194,7 @@ a {
 
 .search li a.login-register {
     color: #7e7e7e;
-    font-size: 11px;
+    font-size: 0.6875rem;
     border-right: solid #383838 1px;
     border-left: solid #383838 1px;
     padding: 13px 22px 13px 22px;
@@ -330,28 +331,13 @@ li.cart p {
 .active-banner-option {
     width: 180px;
     height: 6px;
+    display: flex;
     background: #57c5a0;
 }
 
 /*===Selection of banner===*/
 
-.active1 {
-    display: flex;
-}
-
-.active2 {
-    display: none;
-}
-
-.active3 {
-    display: none;
-}
-
-.active4 {
-    display: none;
-}
-
-.active5 {
+.non-active {
     display: none;
 }
 
@@ -761,6 +747,7 @@ input.submit {
     background: url(../img/dropdown-background.png) no-repeat;
     background-size: 100% 100%;
     top: 69px;
+    z-index: 5;
 }
 
 .filter-items h3 {
@@ -861,30 +848,6 @@ input.submit {
 }
 
 /*End highlights*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
