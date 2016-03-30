@@ -436,7 +436,7 @@ li.cart p {
     margin: 28px 0;
 }
 
-/*Start Product box*/
+/*Start highlight-item*/
 
 .highlight-item img {
     width: 100%;
@@ -453,6 +453,7 @@ li.cart p {
     display: inline-block;
     font-family: Aller-Light;
     font-size: 1.1rem;
+    cursor: pointer;
 }
 
 .price-box {
